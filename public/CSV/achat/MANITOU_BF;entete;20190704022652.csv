@@ -1,0 +1,3 @@
+﻿RecordKey;DocType;DocObjectCode;ShipToCode;CardCode;ShipToStreet;ShipToCity;ShipToCounty;ShipToZipCode;DocDate;DocDueDate;PartialSupply;NumAtCard;SalesPersonCode;PaymentGroupCode;TransportationCode;U_code_corres;U_NOMCORRE;U_NBS_UDP;U_AppPL
+RecordKey;DocType;DocObjectCode;ShipToCode;CardCode;ShipToStreet;ShipToCity;ShipToCounty;ShipToZipCode;DocDate;DocDueDate;PartialSupply;NumAtCard;SalesPersonCode;PaymentGroupCode;TransportationCode;U_code_corres;U_NOMCORRE;U_NBS_UDP;U_AppPL
+1;I;17;DEPOT 114 (LMH);C011550;Site LMH Solution;BEAUPREAU;1070, ZI Evre & Loire;49600;20190704;20190101;tYES;789;15;28;2;42;WebShop;1;N

@@ -1,0 +1,41 @@
+#content .twoCols {
+	width: 687px;
+	margin-bottom: 25px;
+}
+#content .twoCols .col1 {
+	width: 305px;
+}
+#content .twoCols .col2 {
+	padding-left: 90px;
+}
+
+#content .fourCols {
+	width: 687px;
+	margin-bottom: 25px;
+}
+#content .fourCols .col1 {
+	width: 137px;
+}
+#content .fourCols .col2 {
+	width: 137px;
+	padding-left: 44px;
+}
+#content .fourCols .col3 {
+	width: 137px;
+	padding-left: 44px;
+}
+#content .fourCols .col4 {
+	width: 137px;
+	padding-left: 44px;
+}
+#content .threeCols .col1 {
+	width: 300px;	
+}
+#content .threeCols .col2 {
+	width: 300px;
+	padding-left: 50px;
+}
+#content .threeCols .col3 {
+	width: 300px;
+	padding-left: 50px;
+}

@@ -1,0 +1,100 @@
+@import url("scwb_global.css");
+@import url("scwb_head.css");
+@import url("scwb_main.css");
+@import url("scwb_content.css");
+@import url("scwb_subtemplates.css");
+@import url("scwb_foot.css");
+
+@import url("stylesheet_b8932617de.css");
+
+
+/* (c) it-motive AG Duisburg */
+
+.selectedNode { font-weight: bold; }
+.clsShow { }
+.clsHide { display: none; }
+
+/********************************************/
+/* FRAMESET-SPECIFIC SETTINGS               */
+#adressShipToParty
+{
+	float				:	left;
+ 	width				:	324px;
+}
+#adressForwardingAgent
+{
+	margin-left			:	324px;
+}
+
+
+#shipToPartyLeft
+{
+	float				:	left;
+ 	width				:	30px;
+}
+#shipToPartyRight
+{
+	margin-left			:	30px;
+}
+
+#forwardingAgentLeft
+{
+	float				:	left;
+ 	width				:	30px;
+}
+#forwardingAgentRight
+{
+	margin-left			:	30px;
+}
+
+
+/********************************************/
+/* General Classes                          */
+.clearfix:after
+{
+	content				:	".";
+	display				:	block;
+	height				:	0;
+	font-size			:	0;
+	clear				:	both;
+	visibility			:	hidden;
+}
+* html #framesetContent
+{
+	height:1%;
+}
+/********************************************/
+
+/* noch ein paar Besonderheiten für den WIN-IE \*/
+* html #adressShipToParty
+{
+ margin-right  : -3px;
+}
+
+* html #adressForwardingAgent
+{
+ margin-left   : 321px;
+ display    : inline-block;
+}
+* html #shipToPartyLeft
+{
+ margin-right  : -3px;
+}
+
+* html #shipToPartyRight
+{
+ margin-left   : 27px;
+ display    : inline-block;
+}
+* html #forwardingAgentLeft
+{
+ margin-right  : -3px;
+}
+
+* html #forwardingAgentRight
+{
+ margin-left   : 27px;
+ display    : inline-block;
+}
+/* 3-Pixel Bug /*/
+/********************************************/

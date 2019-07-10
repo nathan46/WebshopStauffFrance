@@ -1,0 +1,46 @@
+#foot {
+	position: relative;
+	z-index: 2;
+	top:222px;
+}
+
+#foot #footPath {
+	padding-left: 6px;
+	line-height: 25px;
+	color: #666;
+}
+
+#foot #footPath a {
+	color: #666;
+	text-decoration: none;
+}
+
+#foot #pageFunctions,
+#foot #pageControl {
+	
+}
+
+#foot #pageFunctions td,
+#foot #pageControl td {
+	height: 25px;
+	vertical-align: middle;
+}
+
+#foot #pageFunctions td {
+	color: #FFF;
+}
+
+#foot #pageFunctions #naviFoot {
+	width: 100%;
+	text-align: center;
+}
+
+#foot #pageFunctions #naviFoot a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+#foot #pageControl a {
+	color: #007857;
+	text-decoration: none;
+}

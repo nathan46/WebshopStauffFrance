@@ -1,0 +1,127 @@
+#head {
+	position: fixed;
+	z-index: 3;
+	width: 939px;
+	height: 222px;
+	background-color: rgb(255, 255, 255);
+}
+
+#head #logo {
+	position: absolute;
+	z-index: 3;
+	left: 0px;
+	top: 19px;
+}
+
+#head #language {
+	position: absolute;
+	z-index: 3;
+	right: 0px;
+	top: 50px;
+}
+
+#head #language img {
+	margin-left: 16px;
+	margin-right: 4px;
+}
+
+#head #language a {
+	color: #000;
+	text-decoration: none;
+}
+
+#head #headTable {
+	position: absolute;
+	z-index: 3;
+	left: -5px;
+	top: 61px;
+	width: 949px;
+}
+
+#head #headTable #naviMain {
+	width: 359px;
+	overflow: hidden;
+}
+
+#head #headTable #naviMain #naviTable {
+	width: 360px;
+	height: 96px;
+}
+
+#head #headTable #naviMain #naviTable .item {
+	width: 85px;
+	
+	background-color: #EEE;
+	background-image: url(../pictures/bg_green.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	
+	border-right: solid 1px #FFF;
+}
+
+#head #headTable #naviMain #naviTable .active {
+	background-color: #CCC;
+}
+
+#head #headTable #naviMain #naviTable .item .naviText {
+	padding-left: 2px;
+	
+	line-height: 20px;
+}
+
+#head #headTable #naviMain #naviTable .item .naviText a {
+	color: #007857;
+	text-decoration: none;
+}
+
+#head #headTable #naviMain #naviTable .active .naviText a {
+	font-weight: bold;
+}
+
+#head #headTable #searchNregion {
+	background-image: url(../pictures/bg_world.jpg);
+}
+
+#head #headTable #searchSite,
+#head #headTable #selectRegion {
+	padding: 8px;
+}
+
+#head #headTable #selectRegion {
+	padding-top: 38px;
+}
+
+#head #headTable #searchSite #searchboxTable {
+	height: 80px;
+}
+
+#head #headTable #searchSite #searchboxTable td {
+	vertical-align: middle;
+}
+
+#head #headTable #searchSite #searchField {
+	width: 216px;
+	font-size: 11px;
+}
+
+#head #headTable #searchSite #submitButton {
+	margin-left: 7px;
+	width: 60px;
+	font-size: 11px;
+}
+
+#head #headTable #pageSubline,
+#head #headTable #headPath {
+	line-height: 25px;
+	color: #FFF;
+}
+
+#head #headTable #pageSubline {
+	width: 171px;
+	border-right: solid 1px #FFF;
+	font-weight: bold;
+}
+
+#head #headTable #headPath {
+	padding-left: 8px;
+}
